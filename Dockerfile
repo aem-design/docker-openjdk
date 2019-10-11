@@ -9,4 +9,8 @@ LABEL   os="centos 7" \
         test.command=" java -version 2>&1 | grep 'java version' | sed -e 's/.*java version "\(.*\)".*/\1/'" \
         test.command.verify="1.8"
 
-RUN yum -y install java-1.8.0-openjdk-devel
+RUN \
+    yum -y update && \
+    yum -y install java-1.8.0-openjdk-devel && \
+    yum clean all && \
+    rm -rf /var/cache/yum
