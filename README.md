@@ -1,6 +1,6 @@
 ## CentOS 7 with Open JDK
 
-[![build_status](https://travis-ci.org/aem-design/docker-openjdk.svg?branch=master)](https://travis-ci.org/aem-design/docker-openjdk)
+[![build](https://github.com/aem-design/docker-openjdk/actions/workflows/build.yml/badge.svg)](https://github.com/aem-design/docker-openjdk/actions/workflows/build.yml)
 [![github license](https://img.shields.io/github/license/aem-design/docker-openjdk)](https://github.com/aem-design/docker-openjdk) 
 [![github issues](https://img.shields.io/github/issues/aem-design/docker-openjdk)](https://github.com/aem-design/docker-openjdk) 
 [![github last commit](https://img.shields.io/github/last-commit/aem-design/docker-openjdk)](https://github.com/aem-design/docker-openjdk) 
